@@ -1,0 +1,14 @@
+/*Para abajo y Para arriba*/
+
+.section {
+    padding: 8px;
+
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.image-uno {
+    margin:1rem;
+    height: 25rem;
+    width: 25rem;
+    object-fit:cover;
+}

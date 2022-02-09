@@ -1,0 +1,54 @@
+/*Contacto*/
+.contactofondo {
+    margin: 1.5rem;
+    padding: 1rem;
+    background:linear-gradient(to top, #74d1d1, #e6bfd4);
+}
+
+.subtitulo__contacto {
+    font-weight: 500;
+    padding: 1rem;
+    font-size: 1.5;
+}
+
+.formulario {
+    padding: 10px;
+    display: block;
+    width: 25rem;
+}
+.legend {
+    font-weight:400;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+.controls {
+    margin: 1rem;
+    padding: 0.2rem;
+    width: 15%;
+    border-radius: 4px;
+    &--mail {
+        width: 30%;
+        border-radius: 4px;
+        margin: 1rem;
+        padding: 0.2rem;
+    }
+
+}
+.seleccionar {
+    padding: 0.7rem;
+    margin: 0.4rem;
+
+}
+.btn {
+    margin:1rem;
+    padding: 5px;
+    height: 2rem;
+}
+.legend {
+    font-weight:bolder;
+    font-size: 1rem;
+}
+.form-label {
+    font-size: 0.8rem;
+}

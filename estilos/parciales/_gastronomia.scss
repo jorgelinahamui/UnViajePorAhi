@@ -1,0 +1,35 @@
+/*Gastronomia*/
+.gastro {
+    margin: 6px;
+    padding: 6px;
+
+}
+.gastronomia {
+    font-size: 20px;
+    font-weight: 400;
+    padding: 6px;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.lista {
+    display: flex;
+    padding: 2rem;
+    margin: 1rem;
+    border: violet 2px solid;
+    position: relative;
+}
+.lista__parrafo {
+    margin: 2px;
+    justify-content:center;
+    width: 65%;
+    text-align: center;
+    &-img {
+        height: 11rem;
+        width: 13rem;
+        object-fit: cover;
+        float: right;
+        text-align: right;
+        right: 100%;
+    }
+}

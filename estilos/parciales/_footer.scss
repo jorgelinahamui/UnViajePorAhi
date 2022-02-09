@@ -1,0 +1,29 @@
+/*Footer*/
+.separador {
+    color:black;
+
+}
+.footer {
+    background: #0001;
+    display: flex;
+    margin-top: 1rem;
+    padding: 0.5rem 0 1rem 0;  
+    text-align: center;
+    &__section {
+        padding-left: 50px;
+        margin-left: 50px;
+    }
+    &__parrafo {
+        font-size:medium; 
+    }
+    &__lista {
+        list-style: none;
+        font-size: small;
+        display: flex;
+        margin: 3rem;
+    }   
+}
+.final__mapa {
+    margin-left: 100%;
+
+}
