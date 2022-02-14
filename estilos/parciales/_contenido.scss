@@ -1,8 +1,10 @@
+@import "./var";
+@import "./responsive_mixins";
+
 /*Para abajo y Para arriba*/
 
 .section {
     padding: 8px;
-
     grid-template-columns: repeat(3, 1fr);
 }
 
@@ -11,4 +13,9 @@
     height: 25rem;
     width: 25rem;
     object-fit:cover;
+}
+
+.container-fluid {
+    margin: 0.5rem;
+
 }

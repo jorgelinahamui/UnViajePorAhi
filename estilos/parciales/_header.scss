@@ -1,9 +1,13 @@
+@import "./var";
+@import "./responsive_mixins";
+
 /*HEADER*/
 .header {
     margin: 0%;
-    padding: 0;
+    padding: 0%;
 }
 .navbar {
+    display: grid;
     height: auto;
 
 }

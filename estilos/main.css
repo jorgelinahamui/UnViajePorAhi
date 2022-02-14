@@ -1,3 +1,21 @@
+/*Responsive mixins*/
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 0.9rem;
+}
+
+h4 {
+  font-size: 0.8rem;
+}
+
+/*Responsive mixins*/
 * {
   margin: 0%;
   padding: 0%;
@@ -5,13 +23,33 @@
           box-sizing: border-box;
 }
 
+/*Responsive mixins*/
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 0.9rem;
+}
+
+h4 {
+  font-size: 0.8rem;
+}
+
+/*Responsive mixins*/
 /*HEADER*/
 .header {
   margin: 0%;
-  padding: 0;
+  padding: 0%;
 }
 
 .navbar {
+  display: -ms-grid;
+  display: grid;
   height: auto;
 }
 
@@ -19,6 +57,24 @@ a.nav-link:hover {
   background-color: #c770f0;
 }
 
+/*Responsive mixins*/
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 0.9rem;
+}
+
+h4 {
+  font-size: 0.8rem;
+}
+
+/*Responsive mixins*/
 /*MAIN*/
 .main {
   padding-top: 2rem;
@@ -30,7 +86,7 @@ a.nav-link:hover {
 .hero__container {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[4];
+
       grid-template-columns: repeat(4, 1fr);
   grid-auto-rows: 200px;
   padding: 3px;
@@ -60,7 +116,7 @@ a.nav-link:hover {
   margin: 0;
 }
 
-.buttom {
+.button {
   font-weight: 400;
   font-size: 15px;
   color: #000000;
@@ -76,11 +132,29 @@ a.nav-link:hover {
   width: 70%;
 }
 
-.buttom:hover {
+.button:hover {
   background-color: #cc9977a8;
   border: #cc9977a8;
 }
 
+/*Responsive mixins*/
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 0.9rem;
+}
+
+h4 {
+  font-size: 0.8rem;
+}
+
+/*Responsive mixins*/
 /*Footer*/
 .separador {
   color: black;
@@ -88,9 +162,7 @@ a.nav-link:hover {
 
 .footer {
   background: #0001;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: inline;
   margin-top: 1rem;
   padding: 0.5rem 0 1rem 0;
   text-align: center;
@@ -118,10 +190,27 @@ a.nav-link:hover {
   margin-left: 100%;
 }
 
+/*Responsive mixins*/
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 0.9rem;
+}
+
+h4 {
+  font-size: 0.8rem;
+}
+
+/*Responsive mixins*/
 /*Para abajo y Para arriba*/
 .section {
   padding: 8px;
-  -ms-grid-columns: (1fr)[3];
       grid-template-columns: repeat(3, 1fr);
 }
 
@@ -133,6 +222,28 @@ a.nav-link:hover {
      object-fit: cover;
 }
 
+.container-fluid {
+  margin: 0.5rem;
+}
+
+/*Responsive mixins*/
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 0.9rem;
+}
+
+h4 {
+  font-size: 0.8rem;
+}
+
+/*Responsive mixins*/
 /*Gastronomia*/
 .gastro {
   margin: 6px;
@@ -176,6 +287,24 @@ a.nav-link:hover {
   right: 100%;
 }
 
+/*Responsive mixins*/
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 0.9rem;
+}
+
+h4 {
+  font-size: 0.8rem;
+}
+
+/*Responsive mixins*/
 /*Contacto*/
 .contactofondo {
   margin: 1.5rem;
@@ -235,5 +364,139 @@ a.nav-link:hover {
 
 .form-label {
   font-size: 0.8rem;
+}
+
+/*Responsive mixins*/
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 0.9rem;
+}
+
+h4 {
+  font-size: 0.8rem;
+}
+
+/*Responsive mixins*/
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 0.9rem;
+}
+
+h4 {
+  font-size: 0.8rem;
+}
+
+/*Responsive mixins*/
+/* Mediaqueri index*/
+@media (min-width: 320px) {
+  * {
+    font-size: 1rem;
+  }
+  .elgeneral {
+    margin: 0.2rem;
+  }
+  .navegacion {
+    display: block;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .hero__container {
+  
+        grid-template-columns: repeat(3, 1fr);
+  }
+  /*Mediaqueria Para arriba Para abajo*/
+  .image {
+  
+        grid-template-columns: repeat(1, 1fr);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .section {
+    -webkit-text-decoration: double;
+            text-decoration: double;
+  }
+  .image-uno {
+    height: 16rem;
+    width: 14rem;
+    -o-object-fit: cover;
+       object-fit: cover;
+    padding: 0.3rem;
+    margin: 0.4rem;
+  }
+  /*gastronomia*/
+  .listagastro__item {
+    display: inline-block;
+    border: #cdd3dd solid 2px;
+  }
+  .listagastro {
+    margin: 0.1rem;
+    padding: 0.1rem;
+  }
+  .listagastro__item--img {
+    margin: 2rem;
+    -o-object-fit: contain;
+       object-fit: contain;
+    padding: auto;
+    width: 18rem;
+    height: auto;
+  }
+  /*contacto*/
+  .formulario {
+    display: inline-block;
+    width: auto;
+    height: auto;
+  }
+  .controls {
+    width: 12rem;
+  }
+  .controls--mail {
+    padding-right: 5rem;
+    width: 20rem;
+  }
+  .main__contacto {
+    font-variant: small-caps;
+  }
+  .body {
+    font-size: smaller;
+  }
+  /* Footer */
+  .footer {
+    display: inline;
+  }
+  .footer__lista {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-align: center;
+  }
+  .footer__lista__item {
+    list-style: none;
+  }
+  .final__mapa {
+    margin: 1px;
+  }
+  .footer__section {
+    margin: 0%;
+  }
 }
 /*# sourceMappingURL=main.css.map */

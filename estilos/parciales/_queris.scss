@@ -1,0 +1,99 @@
+@import "./var";
+@import "./responsive_mixins";
+
+
+/* Mediaqueri index*/
+
+@media (min-width: 320px) {
+    * {
+        font-size: 1rem;
+    }
+    .elgeneral {
+        margin: 0.2rem;
+    }
+    .navegacion {
+        display: block;
+        justify-content: center;
+    }
+   
+    .hero__container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    /*Mediaqueria Para arriba Para abajo*/
+
+    .image {
+        grid-template-columns: repeat(1, 1fr);
+        display: flex;
+        flex-direction: column;
+    }
+    .section {
+        text-decoration:double;
+    }
+    .image-uno {
+        height: 16rem; 
+        width:14rem;
+        object-fit:cover;
+        padding:0.3rem;
+        margin: 0.4rem;
+    }
+    /*gastronomia*/
+    .listagastro__item {
+        display: inline-block;
+        border: rgb(205, 211, 221) solid 2px;
+        
+    }
+    .listagastro {
+        margin: 0.1rem;
+        padding: 0.1rem;
+    }
+    .listagastro__item--img {
+        margin: 2rem;
+        object-fit: contain;
+        padding: auto;
+        width: 18rem;
+        height: auto;
+    }
+    
+    /*contacto*/
+    .formulario {
+        display:inline-block;
+        width:auto;
+        height:auto;
+        
+    } 
+
+    .controls {
+        width: 12rem;
+    }
+    .controls--mail {
+        padding-right: 5rem;
+        width: 20rem;
+    }
+    .main__contacto {
+        font-variant: small-caps;
+    }
+
+    .body {
+        font-size: smaller;
+    }
+    
+
+    /* Footer */
+    .footer {
+        display: inline;
+
+        &__lista {
+            display: flex;
+            text-align: center;
+            &__item {
+                list-style: none;
+            }
+        }
+    }
+    .final__mapa {
+        margin: 1px;
+    }
+    .footer__section {
+        margin: 0%;
+    }
+}
